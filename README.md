@@ -84,3 +84,7 @@ Low speed in Windows 8.1 x64:
 C:\miner\NsCpuCNMiner64.exe -o stratum+tcp://mine.moneropool.org:80 -u 449TGay4WWJPwsXrWZfkMoPtDbJp8xoSzFuyjRt3iaM4bRHdzw4qoDu26FdcGx67BMDS1r2bnp7f5hF 6xdPWWrD3Q3Wf7G6 -p x
 3. Press "Advanced" button, check "Run As Administrator". Also disable UAC and reboot (perhaps this step is not ncessary for your configuration).
 4. Start shortcut, I get about 290 h/s on stock i7-4770 in Windows 8.1 x64.
+
+*For batch files, start file with the code bellow for start with Administrator privileges without issues with batch location:
+
+cd /D %~dp0
